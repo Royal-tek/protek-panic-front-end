@@ -11,7 +11,7 @@
             <div class="input-group my-3">
                 <input type="submit" class="btn btn-primary" id="submitBtn">
             </div>
-            <p class="text-center" style="text-decoration:none">Don't have an account? <router-link to="/register" style="text-decoration:none; color:white;">Register</router-link></p>
+            <p class="text-center" style="text-decoration:none; font-weight: bold;">Don't have an account? <router-link to="/register" style="text-decoration:none; color:white;">Register</router-link></p>
 
 
         </form>

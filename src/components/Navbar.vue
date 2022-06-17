@@ -2,8 +2,8 @@
     <div id="holder">
         <nav class="navbar navbar-expand-lg bg-light py-3">
     <div class="container-fluid" id="navHolder">
-        <a class="navbar-brand text-white" href="#">PANIC</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand text-white" href="#" style="font-weight:bold; color:pink;"><b>PANIC</b></a>
+        <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -26,9 +26,9 @@
             <a class="imgg me-1" style="display:inline-block"></a>
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Profile</a></li>
-                <li><a class="dropdown-item" href="#">Settings</a></li>
-                <li><a class="dropdown-item" href="#">Login</a></li>
+                <li><a class="dropdown-item" style="font-weight:bold;" href="/profile">Profile</a></li>
+                <li><a class="dropdown-item" style="font-weight:bold;" href="#">Settings</a></li>
+                <li><a class="dropdown-item" style="font-weight:bold;" href="/login">Login</a></li>
             </ul>
             </li>
 
@@ -50,8 +50,8 @@
         width: 75%;
     }
     .navbar{
-        background-color: rgb(147, 147, 230) !important;
-       
+        background-color: #111 !important;
+    
     }
     .user{
         border-radius: 100%;
@@ -65,7 +65,7 @@
         border-radius: 100%;
         border: 2px solid white;
         // background: url(../assets/logo.png);
-        background-color: black;
+        background-color: pink;
         
     }
     </style>

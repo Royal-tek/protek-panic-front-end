@@ -2,12 +2,12 @@
     <div class="holder">
         <form class="form" id="register-form">
             <h2 class="register-text mb-4">REGISTER</h2>
-            <div class="input-group">
+            <!-- <div class="input-group">
                 <input type="text" class="form-control shadow-none py-3" placeholder="Firstname">
             </div>
             <div class="input-group my-3">
                 <input type="text" class="form-control shadow-none py-3" placeholder="Lastname">
-            </div>
+            </div> -->
             <div class="input-group my-3">
                 <input type="text" class="form-control shadow-none py-3" placeholder="Username">
             </div>
@@ -20,7 +20,7 @@
             <div class="input-group my-3">
                 <input type="submit" value="Register" class="btn btn-primary" id="submitBtn">
             </div>
-            <p class="text-center">Already have an account? <router-link to="/login" style="text-decoration:none; color:white;">Login</router-link></p>
+            <p class="text-center" style="font-weight: bold;">Already have an account? <router-link to="/login" style="text-decoration:none; color:white;">Login</router-link></p>
 
         </form>
     </div>
